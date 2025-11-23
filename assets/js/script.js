@@ -185,3 +185,36 @@ function checkRoundEnd() {
     p2Wins.textContent = Number(p2Wins.textContent) + 1;
     message = `${getPlayerName(2)} wins this round!`;
   }
+
+    statusMessage.textContent = `${message} Press "Restart Round" to play again.`;
+}
+
+// RESTART ROUND (keep totals)
+
+restartBtn.addEventListener("click", () => {
+  p1Score.textContent = 0;
+  p2Score.textContent = 0;
+  currentPlayer = 1;
+  matchesFound = 0;
+
+  generateCards();
+});
+
+
+// RESET ALL (full reset)
+
+resetAllBtn.addEventListener("click", () => {
+  p1Score.textContent = 0;
+  p2Score.textContent = 0;
+  p1Wins.textContent = 0;
+  p2Wins.textContent = 0;
+  currentPlayer = 1;
+  matchesFound = 0;
+
+  generateCards();
+});
+
+
+// Init
+
+generateCards();
