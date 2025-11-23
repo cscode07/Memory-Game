@@ -71,3 +71,32 @@ function updateStatusTurnMessage() {
   const name = getPlayerName(currentPlayer);
   statusMessage.textContent = `${name}, it’s your turn. Flip two cards!`;
 }
+
+// CREATE CARD ELEMENTS
+function generateCards() {
+  grid.innerHTML = "";
+  flippedCards = [];
+  lockBoard = false;
+  matchesFound = 0;
+
+  shuffleCards();
+
+  cardsArray.forEach((imgSrc) => {
+    const card = document.createElement("button");
+    card.classList.add("card");
+    card.type = "button";
+
+    card.innerHTML = `
+      <div class="card-inner">
+        <div class="card-front">?</div>
+        <div class="card-back" style="background-image: url('${imgSrc}');"></div>
+      </div>
+    `;
+
+    card.addEventListener("click", () => flipCard(card, imgSrc));
+    grid.appendChild(card);
+  });
+
+  updateActivePlayerUI();
+  updateStatusTurnMessage();
+}
