@@ -104,3 +104,21 @@ body {
   color: #e5e7eb;
 }
 
+/* Game layout- Desktop / Tablet- Mobile*/
+
+.game-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* On wider screens (tablet and up), show: Player 1 | Board | Player 2 */
+@media (min-width: 768px) {
+  .game-layout {
+    display: grid;
+    grid-template-columns: minmax(200px, 1fr) 2fr minmax(200px, 1fr);
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+}
+
