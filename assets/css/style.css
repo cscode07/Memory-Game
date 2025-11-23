@@ -122,3 +122,57 @@ body {
   }
 }
 
+/* Player panels*/
+
+.player-panel {
+  background: #020617;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 1px solid #1e293b;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.player-panel h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.player-name-label {
+  display: block;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+  color: #cbd5f5;
+}
+
+.player-name-input {
+  width: 100%;
+  padding: 0.45rem 0.6rem;
+  border-radius: 0.5rem;
+  border: 1px solid #334155;
+  background: #020617;
+  color: #e5e7eb;
+  margin-bottom: 0.75rem;
+}
+
+.player-name-input:focus {
+  outline: 2px solid #38bdf8;
+  outline-offset: 1px;
+}
+
+.score-box {
+  background: #020617;
+  border-radius: 0.75rem;
+  border: 1px solid #1e293b;
+  padding: 0.6rem 0.75rem;
+}
+
+.score-box p {
+  margin: 0.25rem 0;
+}
+
+/* Highlight for active player (toggled via JS) */
+.player-panel--active {
+  border-color: #facc15;
+  box-shadow: 0 0 0 1px #facc15, 0 0 30px rgba(250, 204, 21, 0.25);
+}
+
