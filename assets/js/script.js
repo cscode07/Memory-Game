@@ -100,3 +100,18 @@ function generateCards() {
   updateActivePlayerUI();
   updateStatusTurnMessage();
 }
+
+// FLIP CARD LOGIC
+
+function flipCard(card, imgSrc) {
+  if (lockBoard) return;
+  if (card.classList.contains("flipped") || card.classList.contains("matched")) return;
+
+  card.classList.add("flipped");
+  flippedCards.push({ card, imgSrc });
+
+  if (flippedCards.length === 2) {
+    checkMatch();
+  }
+}
+
