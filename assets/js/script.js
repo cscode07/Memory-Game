@@ -47,3 +47,12 @@ let flippedCards = [];
 let lockBoard = false;
 let currentPlayer = 1;
 let matchesFound = 0;
+
+// Helpers
+
+function getPlayerName(playerNumber) {
+  if (playerNumber === 1) {
+    return p1NameInput.value.trim() || "Player 1";
+  }
+  return p2NameInput.value.trim() || "Player 2";
+}
