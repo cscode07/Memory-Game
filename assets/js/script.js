@@ -56,3 +56,18 @@ function getPlayerName(playerNumber) {
   }
   return p2NameInput.value.trim() || "Player 2";
 }
+
+function updateActivePlayerUI() {
+  if (currentPlayer === 1) {
+    p1Panel.classList.add("player-panel--active");
+    p2Panel.classList.remove("player-panel--active");
+  } else {
+    p2Panel.classList.add("player-panel--active");
+    p1Panel.classList.remove("player-panel--active");
+  }
+}
+
+function updateStatusTurnMessage() {
+  const name = getPlayerName(currentPlayer);
+  statusMessage.textContent = `${name}, it’s your turn. Flip two cards!`;
+}
