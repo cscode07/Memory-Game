@@ -40,3 +40,10 @@ const p2Panel = document.getElementById("player-2-panel");
 
 const p1NameInput = document.getElementById("player-1-name");
 const p2NameInput = document.getElementById("player-2-name");
+
+// Game state
+
+let flippedCards = [];
+let lockBoard = false;
+let currentPlayer = 1;
+let matchesFound = 0;
