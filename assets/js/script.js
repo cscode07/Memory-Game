@@ -149,3 +149,39 @@ function checkMatch() {
     }, 900);
   }
 }
+
+// SWITCH PLAYER
+
+function switchPlayer() {
+  currentPlayer = currentPlayer === 1 ? 2 : 1;
+  updateActivePlayerUI();
+  updateStatusTurnMessage();
+}
+
+
+// UPDATE SCORE
+
+function updateScore() {
+  if (currentPlayer === 1) {
+    p1Score.textContent = Number(p1Score.textContent) + 1;
+  } else {
+    p2Score.textContent = Number(p2Score.textContent) + 1;
+  }
+}
+
+// CHECK ROUND END
+
+function checkRoundEnd() {
+  if (matchesFound < totalPairs) return;
+
+  const p1 = Number(p1Score.textContent);
+  const p2 = Number(p2Score.textContent);
+
+  let message = "This round is a tie!";
+  if (p1 > p2) {
+    p1Wins.textContent = Number(p1Wins.textContent) + 1;
+    message = `${getPlayerName(1)} wins this round!`;
+  } else if (p2 > p1) {
+    p2Wins.textContent = Number(p2Wins.textContent) + 1;
+    message = `${getPlayerName(2)} wins this round!`;
+  }
