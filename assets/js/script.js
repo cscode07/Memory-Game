@@ -115,3 +115,37 @@ function flipCard(card, imgSrc) {
   }
 }
 
+// CHECK MATCH
+
+function checkMatch() {
+  lockBoard = true;
+
+  const [first, second] = flippedCards;
+
+  if (first.imgSrc === second.imgSrc) {
+    // Match!
+    first.card.classList.remove("flipped");
+    second.card.classList.remove("flipped");
+
+    first.card.classList.add("matched");
+    second.card.classList.add("matched");
+
+    matchesFound += 1;
+    updateScore();
+    checkRoundEnd();
+
+    // Player keeps turn on a match
+    lockBoard = false;
+    flippedCards = [];
+  } else {
+    // Not match → flip back and switch player
+    setTimeout(() => {
+      first.card.classList.remove("flipped");
+      second.card.classList.remove("flipped");
+
+      flippedCards = [];
+      switchPlayer();
+      lockBoard = false;
+    }, 900);
+  }
+}
