@@ -28,6 +28,27 @@
       </p>
     </section>
 
+    <!-- GAME LAYOUT: PLAYER 1 | BOARD | PLAYER 2 -->
+    <section class="game-layout" aria-label="Game layout">
+
+      <!-- PLAYER 1 PANEL -->
+      <aside class="player-panel player-panel--left player-panel--active" id="player-1-panel">
+        <h2>Player 1</h2>
+
+        <label for="player-1-name" class="player-name-label">Enter your name:</label>
+        <input
+          type="text"
+          id="player-1-name"
+          class="player-name-input"
+          placeholder="Player 1 Name">
+
+        <div class="score-box">
+          <p>Round Score: <span id="player-1-score">0</span></p>
+          <p>Total Matches Won: <span id="player-1-total-wins">0</span></p>
+        </div>
+      </aside>
+
+
 </main>
 
 <!-- Footer -->
