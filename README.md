@@ -22,12 +22,19 @@ Immediately communicates the purpose of the site to the user.
 - __Player Panels__
   
 The game includes two player panels, one on each side of the board on desktop/tablet and stacked on mobile:
+
  -Users can enter their names.
+ 
 Each panel displays:
+
  -Round Score
+ 
  -Total Matches Won
+ 
  -The active player is highlighted visually.
+ 
  -Helps players track progress and stay engaged.
+ 
 ![Player Panels](https://github.com/cscode07/Memory-Game/blob/main/assets/player.png)
 
 - __Game Board (Cards Grid)__
@@ -170,6 +177,7 @@ Technologies Used
 
 
 - All photos used were taken from (https://www.google.com/).
+
 
 
 
