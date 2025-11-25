@@ -142,15 +142,10 @@ Fully resets:
 
 ## Wireframes
 
--https://github.com/cscode07/ci-lan-cafe/blob/main/media/Wireframes0.png
+-https://github.com/cscode07/Memory-Game/blob/main/assets/wireframe0.png
 
--https://github.com/cscode07/ci-lan-cafe/blob/main/media/Wireframes1.png
+-https://github.com/cscode07/Memory-Game/blob/main/assets/wireframe1.png
 
--https://github.com/cscode07/ci-lan-cafe/blob/main/media/Wireframes2.png
-
--https://github.com/cscode07/ci-lan-cafe/blob/main/media/Wireframes3.png
-
--https://github.com/cscode07/ci-lan-cafe/blob/main/media/Wireframes4.png
 
 ## Testing 
 
@@ -196,7 +191,7 @@ All layouts displayed as expected.
  
 ## Deployment
 
-The live link can be found here - (https://github.com/cscode07/ci-lan-cafe/settings/pages)
+The live link can be found here - (https://cscode07.github.io/Memory-Game/)
 
 Technologies Used
 -HTML5
@@ -219,13 +214,3 @@ Technologies Used
 - All card images used inside the /assets/images/ folder were either created by me or sourced from:
 
 Google Images
-
-
-
-
-
-
-
-
-
-
