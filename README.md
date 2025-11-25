@@ -156,9 +156,10 @@ Fully resets:
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
-- Accessibility
 - JS
   - No errors were found when passing through the official [(JSHint JavaScript) validator](https://jshint.com/)
+ 
+- Accessibility
 ![Accessibility](https://github.com/cscode07/Memory-Game/blob/main/assets/lighthouse.png)
 
 
@@ -214,3 +215,4 @@ Technologies Used
 - All card images used inside the /assets/images/ folder were either created by me or sourced from:
 
 Google Images
+
