@@ -11,26 +11,39 @@ The main purpose of this application is to demonstrate JavaScript interactivity,
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Header__
   
-Featured on all pages, the fully responsive navigation bar includes links to the Home, Services, Events, Games, Contact, and Book Now sections. It is consistent across the entire website to ensure easy and intuitive navigation. This feature allows users to move quickly between sections without using the browser’s back button, improving overall usability and accessibility on both desktop and mobile devices.
+Displays the game title and tagline clearly at the top of the page.
 
-![Nav Bar](https://github.com/cscode07/ci-lan-cafe/blob/main/media/navbar.png)
+Immediately communicates the purpose of the site to the user.
 
-- __The landing page image__
+![Header](https://github.com/cscode07/Memory-Game/blob/main/assets/header.png)
+
+- __Player Panels__
   
-The landing page features a background image with a text overlay introducing CI LAN House. This section immediately informs the user about the café’s purpose and location, while the eye-catching design captures attention and encourages visitors to explore the rest of the site.
-![Landing Page](https://github.com/cscode07/ci-lan-cafe/blob/main/media/landing%20page%20image.png)
+The game includes two player panels, one on each side of the board on desktop/tablet and stacked on mobile:
+ -Users can enter their names.
+Each panel displays:
+ -Round Score
+ -Total Matches Won
+ -The active player is highlighted visually.
+ -Helps players track progress and stay engaged.
+![Player Panels](https://github.com/cscode07/Memory-Game/blob/main/assets/player.png)
 
-- __Services__
+- __Game Board (Cards Grid)__
 
-The Services section will allow the user to see what CI LAN House offers to enhance their gaming experience. Users can take a break in the café area to enjoy snacks and drinks, explore the variety of available games, watch live tournaments in the dedicated Watch Zone, or train in the Pro Practice Room designed for competitive players. This section helps the user understand how the café provides both a social and professional gaming environment.
-![Services](https://github.com/cscode07/ci-lan-cafe/blob/main/media/services.png)
+-A 5 × 4 responsive grid containing 20 cards (10 pairs).
+-Cards are generated dynamically via JavaScript.
+-Each card flips when clicked and displays a custom image.
+-Provides interactive feedback (flipped, matched).
+![Game Board](https://github.com/cscode07/Memory-Game/blob/main/assets/board.png)
 
-- __Events__
+- __Restart Round Button__
 
-The Events section will allow the user to view upcoming tournaments and activities taking place at CI LAN House. Each event clearly displays the schedule, the specific tournament details, and the room where it will be hosted. This section helps users plan their visit and stay informed about the competitive events happening at the café.
-![Events](https://github.com/cscode07/ci-lan-cafe/blob/main/media/events.png)
+-Resets the board and reshuffles cards.
+-Maintains Total Matches Won.
+-Useful for starting a new round without resetting all progress.
+![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/restart.png)
 
 - __The Footer__ 
 
@@ -157,6 +170,7 @@ Technologies Used
 
 
 - All photos used were taken from (https://www.google.com/).
+
 
 
 
