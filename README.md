@@ -7,6 +7,8 @@ The main purpose of this application is to demonstrate JavaScript interactivity,
 ![Responsice Mockup](https://github.com/cscode07/Memory-Game/blob/main/assets/mockup.png)
 ["Link"](https://ui.dev/amiresponsive?url=https://cscode07.github.io/Memory-Game/)
 
+
+
 ## Features 
 
 ### Existing Features
@@ -18,6 +20,8 @@ Displays the game title and tagline clearly at the top of the page.
 Immediately communicates the purpose of the site to the user.
 
 ![Header](https://github.com/cscode07/Memory-Game/blob/main/assets/header.png)
+
+
 
 - __Player Panels__
   
@@ -37,6 +41,8 @@ Each panel displays:
  
 ![Player Panels](https://github.com/cscode07/Memory-Game/blob/main/assets/player.png)
 
+
+
 - __Game Board (Cards Grid)__
 
 -A 5 × 4 responsive grid containing 20 cards (10 pairs).
@@ -49,6 +55,8 @@ Each panel displays:
 
 ![Game Board](https://github.com/cscode07/Memory-Game/blob/main/assets/board.png)
 
+
+
 - __Restart Round Button__
 
 -Resets the board and reshuffles cards.
@@ -59,38 +67,67 @@ Each panel displays:
 
 ![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/restart.png)
 
+
+
 - __Reset All Button__
 
 Fully resets:
 
-Player names, round scores, total matches won, resets the board and restarts the entire game logic.
+-Player names
 
-![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/restart.png)
+-Round scores
+
+-Total matches won
+
+-Resets the board and restarts the entire game logic.
+
+![Reset](https://github.com/cscode07/Memory-Game/blob/main/assets/reset.png)
+
+
+
+- __Status Message__
+
+- Displays real-time feedback:
+
+-Whose turn it is
+
+-Instructions
+
+-Provides clear guidance and enhances user experience.
+
+![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/message.png)
+
+
 
 - __The Footer__ 
 
-![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/restart.png)
+![Footer](https://github.com/cscode07/Memory-Game/blob/main/assets/footer.png)
 
-- __The Footer__ 
 
-![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/restart.png)
 
-- __The Footer__ 
+- __Fully Responsive Layout__
 
-The footer section includes the café’s contact details, address, opening hours, and links to CI LAN House’s social media platforms. All external links open in a new tab to allow easy navigation for the user. This section is valuable as it keeps users connected and provides quick access to essential information about the café.
-![Footer](https://github.com/cscode07/ci-lan-cafe/blob/main/media/footer.png)
+-Desktop/Tablet: Player 1 panel – Game Board – Player 2 panel
 
-- __Games__
+-Mobile: Player 1 and Player 2 appear on top, and the board is below
 
-  The Games section will allow the user to explore the wide selection of PC and console games available at CI LAN House. This section showcases the variety of gaming options offered, ensuring that both casual and competitive players can find something that suits their interests. It helps users decide which platform and games they would like to play during their visit.
-![Games PC](https://github.com/cscode07/ci-lan-cafe/blob/main/media/pcgames.png)
+-Achieved with CSS Grid and Media Queries.
 
-![Games Console](https://github.com/cscode07/ci-lan-cafe/blob/main/media/console.png)
 
-- __Booking__
+- __Features Left to Implement__
+
+- Sound effects for flipping and matching cards
+
+-Timer and time-based scoring
+
+-Difficulty selection (e.g., 16, 24, 30 cards)
+
+-Save scores in localStorage
+
+-Animation improvements for card flipping
+
+-“Best of 3 / Best of 5” match tracker.
   
-The Booking section will allow the user to reserve a spot at CI LAN House. Users can book a PC or console station for gaming, or reserve a seat in the viewing room to watch live tournament broadcasts. This section provides a simple and efficient way for users to secure their place in advance and ensures a smooth experience upon arrival at the café.
-![Sign Up](https://github.com/cscode07/ci-lan-cafe/blob/main/media/booking.png)
 
 ## User Stories
 -User1: As a visitor, I want to understand the café’s services to decide if it’s suitable for me.
@@ -200,6 +237,7 @@ Technologies Used
 
 
 - All photos used were taken from (https://www.google.com/).
+
 
 
 
