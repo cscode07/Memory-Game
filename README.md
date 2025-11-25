@@ -116,7 +116,7 @@ Fully resets:
 
 - __Features Left to Implement__
 
-- Sound effects for flipping and matching cards
+-Sound effects for flipping and matching cards
 
 -Timer and time-based scoring
 
@@ -130,15 +130,15 @@ Fully resets:
   
 
 ## User Stories
--User1: As a visitor, I want to understand the café’s services to decide if it’s suitable for me.
+-User1: I want to enter my name and track my score.
 
--User2: As a gamer, I want to see which PC and console games are available.
+-User2: I want to compete and see who wins most matches.
 
--User3: As an esports fan, I want to view upcoming events.
+-User3 (Casual gamer): I want a simple game that is fun and easy to understand.
 
--User4: As a user, I want clear navigation so I can access any page easily.
+-User4 (Mobile user): I want the layout to look clean on my phone.
 
--User5: As a customer, I want to be able to book a session online.
+-User5 (teacher) : I want a basic logic game suitable for kids.
 
 ## Wireframes
 
@@ -237,6 +237,7 @@ Technologies Used
 
 
 - All photos used were taken from (https://www.google.com/).
+
 
 
 
