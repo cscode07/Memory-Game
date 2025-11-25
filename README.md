@@ -40,16 +40,39 @@ Each panel displays:
 - __Game Board (Cards Grid)__
 
 -A 5 × 4 responsive grid containing 20 cards (10 pairs).
+
 -Cards are generated dynamically via JavaScript.
+
 -Each card flips when clicked and displays a custom image.
+
 -Provides interactive feedback (flipped, matched).
+
 ![Game Board](https://github.com/cscode07/Memory-Game/blob/main/assets/board.png)
 
 - __Restart Round Button__
 
 -Resets the board and reshuffles cards.
+
 -Maintains Total Matches Won.
+
 -Useful for starting a new round without resetting all progress.
+
+![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/restart.png)
+
+- __Reset All Button__
+
+Fully resets:
+
+Player names, round scores, total matches won, resets the board and restarts the entire game logic.
+
+![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/restart.png)
+
+- __The Footer__ 
+
+![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/restart.png)
+
+- __The Footer__ 
+
 ![Restart](https://github.com/cscode07/Memory-Game/blob/main/assets/restart.png)
 
 - __The Footer__ 
@@ -177,6 +200,7 @@ Technologies Used
 
 
 - All photos used were taken from (https://www.google.com/).
+
 
 
 
